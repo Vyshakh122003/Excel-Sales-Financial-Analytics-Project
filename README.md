@@ -1,91 +1,82 @@
-# Sales Analytics Dashboard – AtliQ Hardwares
+# AtliQ Hardwares – Sales & Financial(P&L) Analytics Project using Excel
 
-This project presents a professional **Sales Analytics Dashboard** built entirely using **Microsoft Excel**, **Power Query**, and **Power Pivot** as part of the Codebasics Data Analytics Bootcamp.
-
-The goal was to simulate an industry-level analytics project using a real-world dataset from **AtliQ Hardwares**, answering key business questions through data transformation, modeling, and report generation — all without using any external BI tools.
+This repository showcases multiple Excel-based business analytics projects built using **Power Query**, **Power Pivot**, and **DAX**, all focused on real-world datasets from **AtliQ Hardwares**. The goal of these projects is to simulate industry-level reporting by transforming raw business data into meaningful, actionable insights using Excel's BI capabilities.
 
 ---
 
-## 📁 Dataset Overview
+## 📁 Projects Included
 
-The dataset provided sales data of AtliQ Hardwares for **three fiscal years (2019–2021)**. It included:
+### 📊 1. Sales Analytics Dashboard
 
-- Customer sales by region and division  
-- Product-wise performance metrics  
-- Market targets vs actuals  
-- Country-wise sales  
-- Newly launched product data
+This project focuses on analyzing **sales performance** across regions, customers, divisions, and products for the fiscal years 2019–2021. Built entirely in Excel, the dashboard answers specific business questions around revenue growth, product performance, and market target achievement.
 
----
+#### 🚀 Business Questions Answered
 
-## 🎯 Project Objective
+1. Which are the top 10 products by percentage growth in net sales (2020–2021)?
+2. What are the net sales and growth percentages across business divisions?
+3. Which products were newly launched in 2021?
+4. Which countries contributed the highest sales in 2021?
+5. Which products are the best and worst performers by quantity sold?
+6. Did each market meet or miss its 2021 sales target?
 
-To perform end-to-end sales analysis using Excel BI capabilities and deliver a series of dynamic reports that answer real business inquiries, help identify trends, and support data-driven decisions.
-
----
-
-## 🛠️ Tools & Techniques Used
-
-| Tool/Concept     | Purpose                                      |
-|------------------|----------------------------------------------|
-| **Power Query**  | Data import, cleaning, transformation        |
-| **Power Pivot**  | Data modeling using relationships            |
-| **DAX**          | Calculated measures for KPIs and growth %    |
-| **Pivot Tables** | Report creation and visualization            |
-| **Fiscal Date Table** | Built using Excel to enable time intelligence (Sep–Aug) |
-
----
-
-## 🚀 Business Questions Answered
-
-1. **Which are the top 10 products by percentage growth in net sales (2020–2021)?**
-2. **What are the net sales and growth percentages across business divisions?**
-3. **Which products were newly launched in 2021?**
-4. **Which countries contributed the highest sales in 2021?**
-5. **Which products are the best and worst performers by quantity sold?**
-6. **Did each market meet or miss its 2021 sales target?**
-
----
-
-## 📊 Reports Generated
+#### 📊 Reports Included
 
 | Report | Description |
 |--------|-------------|
-| **1. Customer Performance Report** | Year-on-year growth analysis across customer accounts |
-| **2. Market Performance vs Target** | Market-wise sales comparison against 2021 targets |
-| **3. Top 10 Products Report** | Identified top products based on % growth in sales |
-| **4. Division-Level Report** | Tracked performance across PC, P&A, and N&S divisions |
-| **5. Top & Bottom 5 Products Report** | Ranked products by quantity sold |
-| **6. New Products – 2021** | Listed newly introduced products with 0% 2020 sales |
-| **7. Top 5 Countries Report** | Identified top revenue-generating countries in 2021 |
+| Customer Performance Report | Year-on-year sales by customer |
+| Market Performance vs Target | Market-wise target achievement |
+| Top 10 Products Report | Based on net sales growth |
+| Division-Level Report | Sales by PC, P&A, and N&S divisions |
+| Top & Bottom 5 Products | Based on quantity sold |
+| New Products – 2021 | Products launched in 2021 |
+| Top 5 Countries Report | Countries by revenue in 2021 |
 
 ---
 
-## 📈 Key Insights
+### 💼 2. Profit & Loss (P&L) Dashboard
 
-- 📌 Overall net sales grew **304.5%** from 2019 to 2021  
-- 📌 **India** and **USA** were the top-performing countries in 2021  
-- 📌 **AQ Mx NB** showed a staggering **5623.5%** growth from 2020 to 2021  
-- 📌 The **PC Division** grew by **313.7%**, indicating strong consumer demand  
-- 📌 Several **new products in 2021** generated over **$20M** in revenue  
-- 📌 Despite high absolute sales, many markets fell short of their 2021 targets
+This project involves analyzing AtliQ’s **financial performance** over three fiscal years, focusing on net sales, cost of goods sold (COGS), gross margin, and GM%. The dashboard presents insights into profitability by fiscal period and region.
+
+#### 🎯 Objective
+
+To track year-over-year financial trends, evaluate gross margin consistency, and assess profitability across countries and sub-zones.
+
+#### 📊 Reports Included
+
+| Report | Description |
+|--------|-------------|
+| P&L by Fiscal Year | Net sales, COGS, gross margin, and GM% yearly |
+| P&L by Fiscal Month | Month/quarter-wise trends for 2019–2021 |
+| Market-Level P&L | Financial performance by country |
+| GM% by Sub-Zone | Quarter-wise gross margin % by region |
+
+---
+
+## 🛠️ Tools & Skills Used
+
+| Tool/Concept     | Application |
+|------------------|-------------|
+| Power Query      | Data transformation and cleaning |
+| Power Pivot      | Data modeling with relationships |
+| DAX              | Measures for KPIs, growth %, GM% |
+| Pivot Tables     | Interactive visual reporting |
+| Excel (BI stack) | Full end-to-end analysis in Excel |
 
 ---
 
 ## 👤 About Me
 
-**Vyshakh Vijayan**  
-Aspiring Data Analyst | Excel & BI Enthusiast  
+Hi, I'm **Vyshakh Vijayan** — an aspiring Data Analyst from Kerala, India. I enjoy working on real-world data problems and building analytics dashboards that bring clarity and value to business decisions. These projects reflect my hands-on learning journey and passion for translating data into insights.
+
 📍 Kerala, India  
-🎓 Codebasics Data Analytics Bootcamp Trainee  
-🔗 [LinkedIn – vyshakh12](https://linkedin.com/in/vyshakh12)
+🔗 [LinkedIn](https://linkedin.com/in/vyshakh12)
 
 ---
 
 ## 🙏 Acknowledgments
 
-Special thanks to **Dhaval Patel**, **Hemanand Vadivel**, and the entire **Codebasics** team for building an industry-relevant, hands-on learning journey that helped me develop real analytical thinking and problem-solving skills.
+Special thanks to Dhaval Patel,Hemanand Vadivel, and the entire Codebasics team for creating a powerful, practical learning environment that shaped these projects.
 
 ---
 
-> ✅ This project was built entirely using Excel's BI stack – no external tools used. It demonstrates my ability to work with real-world business data and translate it into actionable insights through self-service analytics.
+> ✅ All dashboards and insights were built using Microsoft Excel's built-in BI tools — no external platforms used.
